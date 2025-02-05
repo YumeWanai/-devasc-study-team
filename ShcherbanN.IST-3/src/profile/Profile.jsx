@@ -5,7 +5,7 @@ import { SaveButton } from "./SaveButton";
 function ProfileSettings() {
   return (
     <div className="flex flex-col justify-center items-center  text-base w-full h-full">
-      <form className="flex overflow-hidden flex-col px-7 py-8 w-96 max-w-full bg-white rounded-lg shadow-sm max-md:px-5">
+      <form className="flex overflow-hidden flex-col  px-7 py-8 w-96 max-w-full bg-white rounded-lg shadow-[2px_2px_20px_rgba(0,0,0,0.35)] max-md:px-5">
         <h1 className="self-start text-2xl font-bold leading-none text-center text-black">
           Profile Settings
         </h1>

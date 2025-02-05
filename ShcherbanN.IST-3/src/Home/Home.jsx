@@ -3,36 +3,18 @@ import Header from "./Header";
 import CardsGrid from "./CardsGrid";
 
 function HotWheelsCatalog() {
-  const [selectedPage, setSelectedPage] = React.useState(1);
-
-  const totalPages = 5;
-
   return (
-    <div className="flex flex-col">
+    <div className="min-h-screen text-white">
       <Header />
-      <div className="pt-12 flex flex-col justify-start items-start">
-        <div className="text-4xl">Welcome to my Hot Wheels Car Collection</div>
-        <div className="text-2xl">Discover my best Hot Wheels cars.</div>
+      <div className="text-center pt-12">
+        <h1 className="text-5xl font-extrabold text-red-500">
+          Hot Wheels Collection
+        </h1>
+        <p className="text-lg text-gray-500">
+          Explore the best models from my collection.
+        </p>
       </div>
       <CardsGrid />
-      <div className="flex justify-center gap-4 text-2xl mt-6">
-        {Array.from({ length: totalPages }, (_, index) => {
-          const pageNumber = index + 1;
-          return (
-            <div
-              key={pageNumber}
-              onClick={() => setSelectedPage(pageNumber)}
-              className={`cursor-pointer px-3 py-1 rounded-md transition-colors ${
-                selectedPage === pageNumber
-                  ? "bg-blue-500 text-white"
-                  : "bg-gray-200 text-black"
-              }`}
-            >
-              {pageNumber}
-            </div>
-          );
-        })}
-      </div>
     </div>
   );
 }

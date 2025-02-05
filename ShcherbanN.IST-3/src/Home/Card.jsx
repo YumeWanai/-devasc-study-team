@@ -2,16 +2,16 @@ import * as React from "react";
 
 function Card({ imgSrc, imgAlt, title }) {
   return (
-    <div className="flex overflow-hidden flex-col grow items-start pt-5 pr-20 pb-11 pl-5 bg-white shadow-sm max-md:px-5 max-md:mt-5 w-full h-full rounded-[8px]">
-      <div className="flex flex-col justify-center bg-zinc-300 max-md:px-5 max-md:ml-2 w-[400px] h-[400px]">
+    <div className="flex flex-col grow items-center pt-4 bg-white shadow-[2px_2px_20px_rgba(0,0,0,0.35)]  w-[18rem] h-full rounded-[8px]">
+      <div className="flex flex-col justify-center items-center rounded-xl shadow-2xl w-[75%] h-[80%]">
         <img
           loading="lazy"
           src={imgSrc}
           alt={imgAlt}
-          className="object-fill w-full h-full"
+          className="object-cover w-full h-full"
         />
       </div>
-      <div className="mt-3 text-xl font-semibold leading-snug text-black">
+      <div className="mt-3 w-full ml-[25%] text-3xl flex justify-start items-start font-bold leading-snug text-black">
         {title}
       </div>
     </div>

@@ -4,8 +4,8 @@ import { Button } from "./Button";
 
 export default function LoginForm() {
   return (
-    <div className="w-full h-full flex items-center justify-center">
-      <div className="flex overflow-hidden flex-col px-8 py-8 max-w-sm bg-white rounded-lg shadow-sm">
+    <div className="w-full h-full  flex items-center justify-center">
+      <div className="flex overflow-hidden  flex-col px-8 py-8 max-w-sm bg-white rounded-lg shadow-[2px_2px_20px_rgba(0,0,0,0.35)]">
         <div className=" flex items-center justify-center text-2xl font-bold leading-none text-black">
           Welcome
         </div>
