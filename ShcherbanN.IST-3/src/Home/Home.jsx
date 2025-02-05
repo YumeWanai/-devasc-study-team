@@ -11,8 +11,8 @@ function HotWheelsCatalog() {
     <div className="flex flex-col">
       <Header />
       <div className="pt-12 flex flex-col justify-start items-start">
-        <div className="text-4xl">Welcome to the Hot Wheels Car Catalog</div>
-        <div className="text-2xl">Discover the coolest Hot Wheels cars.</div>
+        <div className="text-4xl">Welcome to my Hot Wheels Car Collection</div>
+        <div className="text-2xl">Discover my best Hot Wheels cars.</div>
       </div>
       <CardsGrid />
       <div className="flex justify-center gap-4 text-2xl mt-6">

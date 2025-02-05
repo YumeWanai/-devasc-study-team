@@ -1,64 +1,64 @@
 import * as React from "react";
 import Card from "./Card";
+import truck1 from "../../public/HOTWHEELS/hot1.jpg";
+import truck2 from "../../public/HOTWHEELS/hot2.jpg";
+import truck3 from "../../public/HOTWHEELS/photo_1_2025-02-05_23-11-28.jpg";
+import truck4 from "../../public/HOTWHEELS/photo_2_2025-02-05_23-11-28.jpg";
+import truck5 from "../../public/HOTWHEELS/photo_3_2025-02-05_23-11-28.jpg";
+import truck6 from "../../public/HOTWHEELS/photo_4_2025-02-05_23-11-28.jpg";
+import truck7 from "../../public/HOTWHEELS/photo_5_2025-02-05_23-11-28.jpg";
+import truck8 from "../../public/HOTWHEELS/photo_6_2025-02-05_23-11-28.jpg";
+import truck9 from "../../public/HOTWHEELS/photo_7_2025-02-05_23-11-28.jpg";
+import truck10 from "../../public/HOTWHEELS/photo_8_2025-02-05_23-11-28.jpg";
 
 const cardsData = [
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/244fc5d9f97b3ca286c0ebc22beecb87222bc720a67d396318bcfa883f861ad6?placeholderIfAbsent=true&apiKey=9c0ba2d1b51c47abaa8a69a9b551f7da",
+    imgSrc: truck1,
     imgAlt: "Flame Racer Image",
-    title: "Flame Racer",
+    title: "Monster Truck",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/ec73915056b6c67b43ffa9929246df50065e17260b63f42a2697fff8b270952f?placeholderIfAbsent=true&apiKey=9c0ba2d1b51c47abaa8a69a9b551f7da",
+    imgSrc: truck2,
     imgAlt: "Speedster Image",
-    title: "Speedster",
+    title: "Ford F-150",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/2c9573c729e319c4547e40b048f00b6583adc4f6506e49399834fd61f52dd4cc?placeholderIfAbsent=true&apiKey=9c0ba2d1b51c47abaa8a69a9b551f7da",
+    imgSrc: truck3,
     imgAlt: "Monster Truck Image",
     title: "Monster Truck",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/244fc5d9f97b3ca286c0ebc22beecb87222bc720a67d396318bcfa883f861ad6?placeholderIfAbsent=true&apiKey=9c0ba2d1b51c47abaa8a69a9b551f7da",
+    imgSrc: truck4,
     imgAlt: "Cool Cruiser Image",
     title: "Cool Cruiser",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/ec73915056b6c67b43ffa9929246df50065e17260b63f42a2697fff8b270952f?placeholderIfAbsent=true&apiKey=9c0ba2d1b51c47abaa8a69a9b551f7da",
+    imgSrc: truck5,
     imgAlt: "Sleek Racer Image",
-    title: "Sleek Racer",
+    title: "Sleek Rapist",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/2c9573c729e319c4547e40b048f00b6583adc4f6506e49399834fd61f52dd4cc?placeholderIfAbsent=true&apiKey=9c0ba2d1b51c47abaa8a69a9b551f7da",
+    imgSrc: truck6,
     imgAlt: "Future Flyer Image",
     title: "Future Flyer",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/244fc5d9f97b3ca286c0ebc22beecb87222bc720a67d396318bcfa883f861ad6?placeholderIfAbsent=true&apiKey=9c0ba2d1b51c47abaa8a69a9b551f7da",
+    imgSrc: truck7,
     imgAlt: "Sportster Image",
     title: "Sportster",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/ec73915056b6c67b43ffa9929246df50065e17260b63f42a2697fff8b270952f?placeholderIfAbsent=true&apiKey=9c0ba2d1b51c47abaa8a69a9b551f7da",
+    imgSrc: truck8,
     imgAlt: "Classic Cruiser Image",
     title: "Classic Cruiser",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/2c9573c729e319c4547e40b048f00b6583adc4f6506e49399834fd61f52dd4cc?placeholderIfAbsent=true&apiKey=9c0ba2d1b51c47abaa8a69a9b551f7da",
+    imgSrc: truck9,
     imgAlt: "Unique Ride Image",
     title: "Unique Ride",
   },
   {
-    imgSrc:
-      "https://cdn.builder.io/api/v1/image/assets/TEMP/244fc5d9f97b3ca286c0ebc22beecb87222bc720a67d396318bcfa883f861ad6?placeholderIfAbsent=true&apiKey=9c0ba2d1b51c47abaa8a69a9b551f7da",
+    imgSrc: truck10,
     imgAlt: "Vibrant Racer Image",
     title: "Vibrant Racer",
   },
