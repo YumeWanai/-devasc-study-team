@@ -57,7 +57,7 @@ function CardsGrid() {
           className={`px-4 py-2 rounded-md transition-colors ${
             currentPage === 1
               ? "bg-gray-300 text-gray-500 cursor-not-allowed"
-
+              : "bg-red-500 text-white cursor-pointer hover:bg-red-700"
           }`}
           disabled={currentPage === 1}
         >
